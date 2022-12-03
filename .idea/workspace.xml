@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="acdd18e6-4761-449e-8508-91fc07a660cf" name="Changes" comment="finding largest no. using 3 diffrent way">
-      <change afterPath="$PROJECT_DIR$/src/in/kss/basic/FabonaciNo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/in/kss/basic/SearchingInArray.java" afterDir="false" />
+    <list default="true" id="acdd18e6-4761-449e-8508-91fc07a660cf" name="Changes" comment="Searching in Array">
+      <change afterPath="$PROJECT_DIR$/src/in/kss/basic/LinearSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/in/kss/basic/SequencePrintNo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/in/kss/basic/SequencePrintNo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +19,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="c92a4923-8c3b-4c47-b59b-4c9624aebfb4" />
+        <option name="url" value="https://github.com/kssChoubey/DataStructure.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,7 +53,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SearchingInArray">
+  <component name="RunManager" selected="Application.LinearSearch">
     <configuration name="FabonaciNo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="in.kss.basic.FabonaciNo" />
       <module name="DataStructure" />
@@ -56,8 +67,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchingInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.kss.basic.SearchingInArray" />
+    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.kss.basic.LinearSearch" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
@@ -69,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequencePrintNo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.kss.basic.SequencePrintNo" />
+    <configuration name="SearchingInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.kss.basic.SearchingInArray" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
@@ -110,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinearSearch" />
         <item itemvalue="Application.SearchingInArray" />
         <item itemvalue="Application.FabonaciNo" />
         <item itemvalue="Application.UpperLowerCaseCheck" />
         <item itemvalue="Application.lagestNo" />
-        <item itemvalue="Application.SequencePrintNo" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +173,28 @@
       <option name="project" value="LOCAL" />
       <updated>1664728509928</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fabonaci Number">
+      <created>1670061548868</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670061548868</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Sequence print number">
+      <created>1670061589261</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670061589261</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Searching in Array">
+      <created>1670062009818</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670062009818</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,7 +214,10 @@
     <MESSAGE value="conditional check using if else" />
     <MESSAGE value="For loop printing number" />
     <MESSAGE value="finding largest no. using 3 diffrent way" />
-    <option name="LAST_COMMIT_MESSAGE" value="finding largest no. using 3 diffrent way" />
+    <MESSAGE value="Fabonaci Number" />
+    <MESSAGE value="Sequence print number" />
+    <MESSAGE value="Searching in Array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Searching in Array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -191,6 +226,11 @@
           <url>file://$PROJECT_DIR$/src/in/kss/basic/lagestNo.java</url>
           <line>45</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/in/kss/basic/LinearSearch.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
