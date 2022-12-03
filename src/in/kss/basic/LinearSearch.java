@@ -10,13 +10,13 @@ public class LinearSearch {
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter the Number to find In Array");
         int target = scn.nextInt();
-       int result = linearSearch(array,target);
-       if(result!=-1) {
+        int result = linearSearch(array,target);
+        if(result!=-1) {
            System.out.println("Number fount in index no " + result);
-       }
-       else
+        }
+        else
            System.out.println("Number not found in Array");
-    }
+        }
     public static int linearSearch(int[] array, int target) {
         if(array.length==0){
             return -1;
@@ -26,9 +26,7 @@ public class LinearSearch {
             if (element == array[i]) {
                 return i;
             }
-
         }
         return -1;
-
     }
 }
