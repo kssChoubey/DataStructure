@@ -9,7 +9,9 @@ public class SequencePrintNo {
             System.out.print(i+" ");
         }*/
 
-        /*  improvise code taking input from user, from where to where to where printing */
+        /*  improvise code taking input from user,
+         from where to where to where printing */
+
         System.out.println("Enter ther no from where to where you want to print followed by enter");
         Scanner scn = new Scanner(System.in);
         int initialNo = scn.nextInt();
