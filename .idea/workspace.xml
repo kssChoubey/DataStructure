@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="acdd18e6-4761-449e-8508-91fc07a660cf" name="Changes" comment="String Search">
-      <change afterPath="$PROJECT_DIR$/src/in/kss/basic/SearchInRange.java" afterDir="false" />
+    <list default="true" id="acdd18e6-4761-449e-8508-91fc07a660cf" name="Changes" comment="searching the number in between given range">
+      <change afterPath="$PROJECT_DIR$/src/in/kss/basic/FindMinimum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,18 +48,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="Application.SearchInRange">
-    <configuration name="FabonaciNo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.kss.basic.FabonaciNo" />
+}]]></component>
+  <component name="RunManager" selected="Application.FindMinimum">
+    <configuration name="FindMinimum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.kss.basic.FindMinimum" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
@@ -121,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindMinimum" />
         <item itemvalue="Application.SearchInRange" />
         <item itemvalue="Application.SearchingString" />
         <item itemvalue="Application.LinearSearch" />
         <item itemvalue="Application.SearchingInArray" />
-        <item itemvalue="Application.FabonaciNo" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670085942891</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="searching the number in between given range">
+      <created>1670261305232</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1670261305233</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,7 +255,8 @@
     <MESSAGE value="Searching in Array" />
     <MESSAGE value="Linear Search finding by passing array and target no dynamically" />
     <MESSAGE value="String Search" />
-    <option name="LAST_COMMIT_MESSAGE" value="String Search" />
+    <MESSAGE value="searching the number in between given range" />
+    <option name="LAST_COMMIT_MESSAGE" value="searching the number in between given range" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -250,6 +266,10 @@
           <line>45</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
