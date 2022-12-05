@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="acdd18e6-4761-449e-8508-91fc07a660cf" name="Changes" comment="Linear Search finding by passing array and target no dynamically">
-      <change afterPath="$PROJECT_DIR$/src/in/kss/basic/SearchingString.java" afterDir="false" />
+    <list default="true" id="acdd18e6-4761-449e-8508-91fc07a660cf" name="Changes" comment="String Search">
+      <change afterPath="$PROJECT_DIR$/src/in/kss/basic/SearchInRange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +53,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SearchingString">
+  <component name="RunManager" selected="Application.SearchInRange">
     <configuration name="FabonaciNo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="in.kss.basic.FabonaciNo" />
       <module name="DataStructure" />
@@ -69,6 +69,19 @@
     </configuration>
     <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="in.kss.basic.LinearSearch" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="in.kss.basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchInRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.kss.basic.SearchInRange" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
@@ -106,26 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpperLowerCaseCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.kss.basic.UpperLowerCaseCheck" />
-      <module name="DataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="in.kss.basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SearchInRange" />
         <item itemvalue="Application.SearchingString" />
         <item itemvalue="Application.LinearSearch" />
         <item itemvalue="Application.SearchingInArray" />
         <item itemvalue="Application.FabonaciNo" />
-        <item itemvalue="Application.UpperLowerCaseCheck" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670075412223</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="String Search">
+      <created>1670085942891</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670085942891</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,7 +239,8 @@
     <MESSAGE value="Sequence print number" />
     <MESSAGE value="Searching in Array" />
     <MESSAGE value="Linear Search finding by passing array and target no dynamically" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linear Search finding by passing array and target no dynamically" />
+    <MESSAGE value="String Search" />
+    <option name="LAST_COMMIT_MESSAGE" value="String Search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
